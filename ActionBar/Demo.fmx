@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TintColor = claBlack
+    object sbNav: TSpeedButton
+      Align = MostLeft
+      Size.Width = 49.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      object SpeedButton1: TSpeedButton
+        Align = Left
+        HitTest = False
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'backtoolbutton'
+      end
+      object Image1: TImage
+        MultiResBitmap.Width = 48
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00EB49444154484BED934B0AC2301445A303710D0E5C8813074EDC8DE02A1444
+              DD9420A8E8441CB90137E01FBD376D20A6AF6D1250077AE090BC34BD69E05595
+              B087ED642AD285DB641A47071EE000AEE1059EE10A0E219FB560344DC85B3C72
+              DCC1068CA20E797D29D876036B30983E3421C40E75D77ABA0A6409EDC0221730
+              982394C2244FF0FB4C205B70A42BF94B8B246EC60B37C88D575D6503CA246E86
+              AAA423319B08D7EDDA07F71D9D5DD5D337F23FA0948F1E704F47B65A2C990CFB
+              8029E42F3FD6551C411973C8BEF6710645EC1F2D0F0618CC7E694DE437DA54EA
+              2EEF8EF33940EA0CCF6E51EA0996AD7DDAD484CF900000000049454E44AE4260
+              82}
+            FileName = 
+              'C:\Users\Atul Parmar\Documents\Embarcadero\Studio\Projects\Works' +
+              'hop\material-design-icons-master\action\1x_web\ic_android_black_' +
+              '24dp.png'
+          end>
+        Align = Client
+        HitTest = False
+        Margins.Left = -25.000000000000000000
+        Size.Width = 26.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        object InvertEffect1: TInvertEffect
+        end
+      end
+    end
+  end
+end
